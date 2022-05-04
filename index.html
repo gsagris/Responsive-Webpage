@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Use of jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- Use of modernizr library -->
+</head>
+
+<body>
+  <div class="overlay"></div> <!-- a div that acts as an overlay element during the activation of the side menu -->
+  <div class="navbar">
+    <button class="menu-btn"><img class="menu-img" src="./images/icon-menu.svg" alt="Menu"></button>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Snap">
+    </div>
+    <div class="menu">
+      <ul class="left">
+        <li>
+          <div class="features">
+            <button class="feat-btn">Features<img class="feat-img" src="./images/icon-arrow-down.svg"
+                alt="Arrow Down"></button>
+            <div class="features-content">
+              <a href="#"><img class="odd" src="./images/icon-todo.svg" alt="">Todo List</a>
+              <a href="#"><img class="even" src="./images/icon-calendar.svg" alt="Calendar">Calendar</a>
+              <a href="#"><img class="odd" src="./images/icon-reminders.svg" alt="Reminders">Reminders</a>
+              <a href="#"><img class="even" src="./images/icon-planning.svg" alt="Planning">Planning</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="company">
+            <button class="comp-btn">Company<img class="comp-img" src="./images/icon-arrow-down.svg"
+                alt="Arrow Down"></button>
+            <div class="company-content">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html">Careers</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+      <ul class="right">
+        <li><a href="">Login</a></li>
+        <li><a class="reg" href="">Register</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container-1">
+      <h1 class="header">Make<br>remote&nbsp;work</h1>
+      <p class="paragraph">
+        Get your team in sync, no matter your location.<br>
+        Streamline processes, create team rituals, and<br>
+        watch productivity soar.
+      </p>
+      <p><a href="#">Learn more</a></p>
+      <p>
+        <img src="./images/client-databiz.svg" alt="">
+        <img src="./images/client-audiophile.svg" alt="">
+        <img src="./images/client-meet.svg" alt="">
+        <img src="./images/client-maker.svg" alt="">
+      </p>
+    </div>
+    <div class="container-2">
+      <img class="main-image" src="./images/image-hero-desktop.png" alt="">
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    <br><br>Coded by <a href="#">George Sagris</a>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
